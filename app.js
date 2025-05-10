@@ -1,5 +1,6 @@
 function generarDominios(pronouns, adjectives, nouns, extensions, domainHacks) {
     const combinaciones = [];
+    // Generar combinaciones de pronombres, adjetivos y sustantivos
     for (const pronoun of pronouns) {
       for (const adj of adjectives) {
         for (const noun of nouns) {
@@ -14,6 +15,7 @@ function generarDominios(pronouns, adjectives, nouns, extensions, domainHacks) {
     }
     return combinaciones;
   }
+  // Ejemplo de uso
   
   const pronouns = ['the', 'our'];
   const adjectives = ['great', 'big'];
